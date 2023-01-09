@@ -69,6 +69,11 @@
       bindings = <&kp LEFT_GUI>;
       key-positions = <36 41>;
     };
+
+    new_combo {
+      bindings = <&kp ESC>;
+      key-positions = <38 0>;
+    };
   };
 
   macros {
