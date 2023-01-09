@@ -64,6 +64,11 @@
       bindings = <&kp DEL>;
       key-positions = <32 33>;
     };
+
+    gui {
+      bindings = <&kp LEFT_GUI>;
+      key-positions = <36 41>;
+    };
   };
 
   macros {
