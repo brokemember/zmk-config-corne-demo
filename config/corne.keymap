@@ -96,19 +96,19 @@
 
     base {
       bindings = <
-             &kp TAB       &kp Q       &kp W         &kp F         &kp P      &kp G              &kp J         &kp L          &kp U       &kp Y    &kp SEMI     &kp BACKSPACE
- &hm LCTRL BACKSPACE  &hm LGUI A  &hm LALT R   &hm LCTRL S  &hm LSHIFT T      &kp D              &kp H  &hm RSHIFT N    &hm RCTRL E  &hm RALT I  &hm RGUI O          &kp APOS
-           &kp LSHFT       &kp Z       &kp X         &kp C         &kp V      &kp B              &kp K         &kp M      &kp COMMA     &kp DOT    &kp FSLH  &hm RSHIFT ENTER
-                                              &kp LEFT_ALT         &mo 1  &kp ENTER          &kp SPACE         &mo 2  &kp RIGHT_GUI
+             &kp TAB       &kp Q       &kp W         &kp F         &kp P        &kp G              &kp J         &kp L          &kp U       &kp Y    &kp SEMI     &kp BACKSPACE
+ &hm LCTRL BACKSPACE  &hm LGUI A  &hm LALT R   &hm LCTRL S  &hm LSHIFT T        &kp D              &kp H  &hm RSHIFT N    &hm RCTRL E  &hm RALT I  &hm RGUI O          &kp APOS
+           &kp LSHFT       &kp Z       &kp X         &kp C         &kp V        &kp B              &kp K         &kp M      &kp COMMA     &kp DOT    &kp FSLH  &hm RSHIFT ENTER
+                                              &kp LEFT_ALT         &mo 1  &lt 4 ENTER          &kp SPACE         &mo 2  &kp RIGHT_GUI
       >;
     };
 
     Lower {
       bindings = <
- &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4       &kp N5          &kp AT_SIGN   &kp LPAR      &kp RPAR  &kp BACKSLASH  &kp SLASH        &kp EQUAL
-  &trans  &kp F5   &kp F6   &kp F7   &kp F8  &bootloader           &kp DOLLAR  &kp MINUS  &kp QUESTION       &kp LBKT   &kp RBKT        &kp TILDE
-  &trans  &kp F9  &kp F10  &kp F11  &kp F12       &trans          &kp PERCENT   &kp EXCL     &kp COMMA     &kp PERIOD  &kp EQUAL  &mt RSHFT ENTER
-                            &trans   &trans       &trans               &trans      &mo 4    &kp K_MUTE
+ &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4             &kp N5          &kp AT_SIGN   &kp LPAR      &kp RPAR  &kp BACKSLASH  &kp SLASH        &kp EQUAL
+  &trans  &kp F5   &kp F6   &kp F7   &kp F8       &kp C_VOL_UP           &kp DOLLAR  &kp MINUS  &kp QUESTION       &kp LBKT   &kp RBKT        &kp TILDE
+  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_VOLUME_DOWN          &kp PERCENT   &kp EXCL     &kp COMMA     &kp PERIOD  &kp EQUAL  &mt RSHFT ENTER
+                            &trans   &trans             &trans               &trans      &mo 4    &kp K_MUTE
       >;
     };
 
@@ -130,12 +130,12 @@
       >;
     };
 
-    Layer__4 {
+    Arrows {
       bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans          &trans  &trans  &trans
+ &trans  &kp SLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0          &trans    &trans    &kp UP     &trans  &trans  &trans
+ &trans  &kp ASTRK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+ &trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp EQUAL          &trans    &trans    &trans     &trans  &trans  &trans
+                                        &trans        &trans        &trans          &trans    &trans    &trans
       >;
     };
   };
