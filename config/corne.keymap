@@ -56,7 +56,7 @@
 
     tab {
       bindings = <&trans>;
-      key-positions = <0 12 24>;
+      key-positions = <0 12 24 36 41>;
     };
 
     ctrl {
