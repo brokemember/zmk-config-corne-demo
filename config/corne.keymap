@@ -61,7 +61,7 @@
 
     ctrl {
       bindings = <&kp LCTRL>;
-      key-positions = <26 27>;
+      key-positions = <37 36>;
     };
 
     cmd {
